@@ -104,7 +104,8 @@ PUT /api/v1/todo: Update an existing todo.
 
 DELETE /api/v1/todo/{id}: Delete a todo.
 
-📁 Project Structure
+```bash
+📦 SpringBootTodo
 ├── TodoBackend              # Spring Boot Server
 │   ├── src/main/java        # Java Source Code
 │   │   ├── controller       # REST Controllers (Auth, Todo)
@@ -122,5 +123,4 @@ DELETE /api/v1/todo/{id}: Delete a todo.
     ├── todos.html           # Main Dashboard
     ├── script.js            # API Integration Logic
     └── style.css            # Styling
-🛡️ Security Note
-This project uses a hardcoded JWT secret key in JwtUtil.java for demonstration purposes. For a production environment, always store secrets securely (e.g., in environment variables) and use a strong, generated key.
+```
